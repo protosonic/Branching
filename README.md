@@ -14,7 +14,11 @@
 
 * `git config -- global -l` - list global configuration
 
-### Branchin Commands
+### Branching Commands
 * `git branch` - list local branches
 * `git branch branchName` - create new bracnch  `branchName`
 * `git checkout branchName` - switch to new bracnch  `branchName`
+
+### Remote COmmands
+* `git remote add alias URL` - connect local repo ro remote, using name `alias` for remote repo `URL`
+* `git push alias branchName` - push local commits to rmeote repo `alisa` on branch `branchName`
